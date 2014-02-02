@@ -1,0 +1,69 @@
+body {
+  font-family:candara;
+}
+
+.section_ativos {
+	width:400px;
+	height:auto;
+	background:#d1edc4;
+	padding:10px;
+	border-radius:10px;
+	border:1px solid gray;
+	-webkit-animation:comes-here 0.1s 1;
+}
+.section_ativos ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.section_ativos li a {
+	display:block;
+	padding:10px;
+	background:white;
+	text-decoration:none;
+	color:black;
+	border-bottom:1px solid black;
+	font-size:20px;
+}
+
+.section_ativos li a:hover {
+	color:#006600;
+	opacity:0.90;
+}
+
+.buttons_a {
+	display:block;
+	width:200px;
+	padding:5px;
+	background:#add69b;
+	border-radius:5px;
+	color:black;
+	text-decoration:none;
+	font-size:25px;
+	background-image:-webkit-linear-gradient(#add69b,#7d9872);
+}
+.buttons_a:hover {
+	opacity:0.90;
+}
+
+
+
+.antes {
+	background:#add69b;
+	background-image:-webkit-linear-gradient(#add69b,#7d9872);
+	color:black!important;
+}
+
+.depois {
+	background:red;
+	background-image:-webkit-linear-gradient(red,#781a1a);
+	color:white!important;
+}
+
+
+@-webkit-keyframes comes-here {/* For Chrome and Safare */
+ 30% {
+ 	box-shadow:black 1px 1px 10px;
+ }
+}
